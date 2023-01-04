@@ -1,6 +1,6 @@
 module github.com/cvetkovski98/zvax-common
 
-go 1.18
+go 1.19
 
 require (
 	github.com/go-redis/redis/v9 v9.0.0-rc.2
@@ -8,7 +8,7 @@ require (
 	github.com/uptrace/bun v1.1.9
 	github.com/uptrace/bun/dialect/pgdialect v1.1.9
 	github.com/uptrace/bun/driver/pgdriver v1.1.9
-	google.golang.org/grpc v1.50.1
+	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 )
 
