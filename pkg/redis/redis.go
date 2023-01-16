@@ -11,7 +11,7 @@ import (
 func NewRedisConn(cfg config.Redis) (*redis.Client, error) {
 	opts := &redis.Options{
 		// Username:     c.User,
-		// Password:     c.Password,
+		Password:     cfg.Password,
 		Addr:         cfg.Address(),
 		DB:           cfg.Database,
 		MinIdleConns: cfg.Pool.MinConn,
